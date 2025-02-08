@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Roboto";
+}
+header{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo {
+color:white;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 25px;
+margin-top: 0;
+margin-bottom: 0;
+
+}
+.nav-menu-item{
+    color: white;
+    font-size: 20px;
+}
+.nav-menu{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    width: 245px;
+    justify-content: space-between;
+
+}
+.cart-count{
+    color:black;
+    background-color: white;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 50%;
+    
+}
+.shop{
+    display: flex;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    
+}
